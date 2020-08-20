@@ -16,7 +16,7 @@ for j in range(len(ad)):
         path = ad[j][:-1]
     print(path)
     # Download the .xml file and change the path
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    face_cascade = cv2.CascadeClassifier('frontalface.xml')
 
     image = cv2.imread(path, 1)
 
