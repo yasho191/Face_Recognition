@@ -20,7 +20,7 @@ while True:
     print(frame)
     # Initializing Face Cascade
     # Download the .xml file and change the path according to your PC
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    face_cascade = cv2.CascadeClassifier('frontalface.xml')
 
     # Frame conversion RGB to GRAY scale
     gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
